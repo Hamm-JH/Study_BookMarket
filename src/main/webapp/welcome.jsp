@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=utf-8" %>
 <html>
 <head>    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -13,8 +14,9 @@
 		</svg>   
         <span class="fs-4">Home</span>
       </a>    
-    </header>    
-     <%!String greeting = "Welcome to Book Shopping Mall";
+    </header>
+    <!-- 변수 정의  -->    
+    <%!String greeting = "도서 쇼핑몰에 오신 것을 환영합니다";
 	String tagline = "Welcome to Web Market!";%>	
     <div class="p-5 mb-4 bg-body-tertiary rounded-3">
       <div class="container-fluid py-5">
